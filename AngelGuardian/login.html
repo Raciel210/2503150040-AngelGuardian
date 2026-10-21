@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ángel Guardián - Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <!-- ESPACIO RESERVADO PARA LA IMAGEN DEL LOGOTIPO (40x40 píxeles) -->
+            <img src="AlasAngel.jpg" alt="Logotipo" width="40" height="40">
+            <h2>Ángel Guardián</h2>
+        </div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="login.html">Iniciar Sesión</a>
+            <a href="perfil.html">Perfil</a>
+            <input type="text" class="busqueda" placeholder="Buscar...">
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <h1>Iniciar Sesión</h1>
+        
+        <form id="formulario">
+            <label id="labelNombre" for="nombre">Usuario / Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label class="classEdad" for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="resultado" style="margin-top: 15px; font-weight: bold;"></p>
+    </div>
+
+    <!-- Botón simple de emergencia -->
+    <a href="tel:911" class="btn-emergencia">EMERGENCIA 911</a>
+
+    <footer>
+        <p>&copy; 2026 Ángel Guardián - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
